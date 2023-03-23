@@ -15,7 +15,7 @@ function App() {
 
 
   const fetchBotResponse = async () => {
-    const { data } = await axios.post("http://localhost:4000", { input: input }, {
+    const { data } = await axios.post("https://chatgpt-l1ya.onrender.com", { input: input }, {
       headers: {
         "Content-Type": "application/json",
       },
